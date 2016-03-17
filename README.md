@@ -28,27 +28,28 @@
 
 2、在项目根目录下找到 needs_files 目录（包含所有配置文件）
 
+
 > 各配置文件说明如下：
 
-  a. ic_launcher_xx.png 
+> a. ic_launcher_xx.png 
 
-  > 代表的是您应用各种尺寸的icon
+>> 代表的是您应用各种尺寸的icon
 
-  b. ShareSDK.xml 
+> b. ShareSDK.xml 
 
-  > 分享key配置
+>> 分享key配置
       
-  > 注：本app使用的是sharesdk第三方分享，请拷贝QQ、sina、微信开发者平台的key到此文件中
+>> 注：本app使用的是sharesdk第三方分享，请拷贝QQ、sina、微信开发者平台的key到此文件中
 
-  c. demokey.keystore 
+> c. demokey.keystore 
 
-  > apk的签名文件，请替换成您的签名文件
+>> apk的签名文件，请替换成您的签名文件
     
-  > 注：如果修改了签名文件的名称，还需修改app/build.gralde文件中的值"../needs_files/demokey.keystore"
+>> 注：如果修改了签名文件的名称，还需修改app/build.gralde文件中的值"../needs_files/demokey.keystore"
 
-  d. params.xml
+> d. params.xml
 
-  > APP功能配置项，其说明如下：
+>> APP功能配置项，其说明如下：
 
     <Asset>
         <!-- nav bar的颜色 -->
@@ -75,7 +76,7 @@
         <use_wechat>1</use_wechat>  
     </Asset>
     
-  > 注：其配置仅在编译release版本下全部有效；debug版本下仅package_name、version_name、svn_version、api_url、keystore配置有效，未生效的均采用默认值
+>> 注：其配置仅在编译release版本下全部有效；debug版本下仅package_name、version_name、svn_version、api_url、keystore配置有效，未生效的均采用默认值
     
 3、编译运行
 
