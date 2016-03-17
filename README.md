@@ -1,6 +1,6 @@
 # BigApp_WordPress_Android
 
-##1. 站点安装插件
+##1. 网站端事项
 
 ###A. 安装WP-BigApp插件
 >>Wordpress -> 管理站点 -> 仪表盘 -> 插件 -> 安装插件 -> 搜索bigapp，点击WP-BigApp安装即可
