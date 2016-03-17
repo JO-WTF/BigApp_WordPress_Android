@@ -50,7 +50,7 @@
 > d. params.xml
 
 >> APP功能配置项，其说明如下：
-
+>>
     <Asset>
         <!-- nav bar的颜色 -->
         <nav_color>#FFFFFF</nav_color>
