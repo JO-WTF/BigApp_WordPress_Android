@@ -1,10 +1,6 @@
-include ':app', ':library_slidingmenu', ':library_uil', ':lib_base', ':library_indicator', ':lib_gallery'
-project(':library_slidingmenu').projectDir = new File('libs_third/library_slidingmenu')
-project(':library_uil').projectDir = new File('libs_third/library_uil')
-project(':library_indicator').projectDir = new File('libs_third/library_indicator')
-project(':lib_base').projectDir = new File('libs_mine/lib_base')
-project(':lib_gallery').projectDir = new File('libs_mine/lib_gallery')
-
-//5.1 If you face "Default Configuration" error, then try this instead of step 5,
-//include ':app'
-//include ':libs:PagerSlidingTabStrip'
+include ':app'
+include ':libs_mine:lib_gallery'
+include ':libs_mine:lib_base'
+include ':libs_third:library_slidingmenu'
+include ':libs_third:library_uil'
+include ':libs_third:library_indicator'

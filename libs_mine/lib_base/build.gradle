@@ -18,6 +18,6 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(":library_uil")
-    compile project(":library_slidingmenu")
+    compile project(":libs_third:library_uil")
+    compile project(":libs_third:library_slidingmenu")
 }

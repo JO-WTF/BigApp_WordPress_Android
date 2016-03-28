@@ -231,6 +231,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(":lib_gallery")
-//    compile project(":libs:library_slidingmenu")
+    compile project(":libs_mine:lib_gallery")
 }
